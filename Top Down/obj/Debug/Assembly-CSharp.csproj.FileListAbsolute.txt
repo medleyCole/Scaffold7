@@ -1,0 +1,2 @@
+C:\Users\Owner\Documents\Frequently used\Games\Development\Experimenting\Top Down\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Owner\Documents\Frequently used\Games\Development\Experimenting\Top Down\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
