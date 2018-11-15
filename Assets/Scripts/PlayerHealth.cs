@@ -17,7 +17,12 @@ public class PlayerHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update (Collider2D other) {
-        if (other.CompareTag("Enemy")) {
+        
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Enemy")
+        {
             DealDamage(5);
         }
     }
