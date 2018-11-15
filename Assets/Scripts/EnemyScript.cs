@@ -12,4 +12,12 @@ public class EnemyScript : MonoBehaviour {
         transform.eulerAngles = new Vector3(0, 0, z);
         GetComponent<Rigidbody2D>().AddForce(gameObject.transform.up * speed);
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
+    }
 }
